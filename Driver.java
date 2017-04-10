@@ -9,6 +9,8 @@ public class Driver {
 
         leatherBag.openPouch();
 
+        // this is a test comment
+
         leatherBag.addMarble(16, Color.BLUE, "Polka dots");
         leatherBag.addMarble(25, Color.RED, "Glitter swirl");
         leatherBag.addMarble(35, Color.BLACK, "Universe");
@@ -28,9 +30,7 @@ public class Driver {
         }
         System.out.printf("%nNow some random marbles from the collection:%n");
 
-        
-
-        System.out.println(leatherBag.getMarbleNumber(leatherBag.getRandomMarble()));
+//        System.out.println(leatherBag.getMarbleNumber(leatherBag.getRandomMarble()));
         System.out.println(leatherBag.getRandomMarble());
         System.out.println(leatherBag.getRandomMarble());
         System.out.println(leatherBag.getRandomMarble());

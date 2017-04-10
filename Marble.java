@@ -16,7 +16,6 @@ public class Marble {
         color = _color;
         style = _style;
         inBag = true;
-
     }
 
     public String toString() {
